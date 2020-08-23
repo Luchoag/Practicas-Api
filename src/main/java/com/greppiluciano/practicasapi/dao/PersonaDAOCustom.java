@@ -6,6 +6,5 @@ import com.greppiluciano.practicasapi.model.Persona;
 
 public interface PersonaDAOCustom {
 
-	//public List<Object> getApellidosFromPersona();
     
 }

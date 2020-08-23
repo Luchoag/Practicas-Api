@@ -23,13 +23,5 @@ public class PersonaDAOCustomImpl implements PersonaDAOCustom{
 	public PersonaDAOCustomImpl(PersonaDAOBasic personaDAOBasic) {
 		this.personaDAOBasic = personaDAOBasic;
 	}
-	/*
-	@Override
-	public List<Object> getApellidosFromPersona() {
-        
-		Query query = entityManager.createNativeQuery("SELECT Persona.apellido FROM Persona");        
-		return query.getResultList();
-		
-	}
-*/
+
 }

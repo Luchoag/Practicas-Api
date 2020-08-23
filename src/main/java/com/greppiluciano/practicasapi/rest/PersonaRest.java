@@ -55,13 +55,25 @@ public class PersonaRest {
 		personaDAO.save(persona);
 	}
 	
+	@ResponseBody
+	@RequestMapping("/nombres")
+	public List<Object> nombres() {
+	    List<Object> listaNombres = personaDAO.getNombre();
+	    return listaNombres;
+	}
+
+	@ResponseBody
+	@RequestMapping("/apellidos")
+	public List<Object> apellidos() {
+	    List<Object> listaApellidos = personaDAO.getApellido();
+	    return listaApellidos;
+	}	
 	
 	@ResponseBody
-	@RequestMapping("/nombre")
-	public List<Object> apellidos () {
-	    List<Object> listaNombreCompleto = personaDAO.getNombreCompleto();
-	    return listaNombreCompleto;
-	}
-	
+	@RequestMapping("/edades")
+	public List<Object> edades () {
+	    List<Object> listaEdades = personaDAO.getEdad();
+	    return listaEdades;
+	}		
 	
 }
