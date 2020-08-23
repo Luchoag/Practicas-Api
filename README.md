@@ -1,6 +1,4 @@
 # Practicas-Api
-@Luciano Greppi<br>
-#2020
 
 Proyecto realizado con el fin de reforzar conocimientos sobre la creación de API REST. <br>
 El tutorial usado para modelar el proyecto puede encontrarse en: https://youtu.be/jO-o3qQZDuU. <br>
@@ -10,3 +8,7 @@ y se añadieron además dos métodos propios que leen cada columna de la tabla p
 Las tecnologías utilizadas en el proyecto son: <b>Java Spring Boot, JPA y MySQL</b>. El IDE utilizado fue Spring Tool Suite 3.9.6.<br><br>
 
 <img width=700 src="https://i.imgur.com/OVljjbo.png">
+
+<br>
+@Luciano Greppi<br>
+#2020
