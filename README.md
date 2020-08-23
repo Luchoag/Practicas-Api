@@ -1,4 +1,4 @@
-# Practicas-Api
+# Practicas Api
 
 Proyecto realizado con el fin de reforzar conocimientos sobre la creación de API REST. <br>
 El tutorial usado para modelar el proyecto puede encontrarse en: https://youtu.be/jO-o3qQZDuU. <br>
